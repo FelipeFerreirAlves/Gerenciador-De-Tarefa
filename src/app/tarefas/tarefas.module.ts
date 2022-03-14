@@ -6,6 +6,7 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CadastrarTarefaComponent } from './cadastrar';
 import { EditarTarefaComponent } from './editar';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 
 
@@ -22,7 +23,8 @@ import { EditarTarefaComponent } from './editar';
   imports: [
     CommonModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    DragDropModule
   ]
 })
 export class TarefasModule { }

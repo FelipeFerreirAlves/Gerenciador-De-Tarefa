@@ -1,0 +1,15 @@
+.container-fluid{
+    height: 100%;
+
+    background-color:rgb(13, 218, 207);
+}
+.navbar-brand{
+    color: black;
+}
+
+.navbar-header{
+    width: 100%;
+
+    background-color: rgb(113, 243, 113);
+}
+
